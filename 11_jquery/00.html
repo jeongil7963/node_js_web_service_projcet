@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>An unordered list:</p>
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
+<button onclick="myFunction()">Hide List</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var divs = document.getElementsByTagName("LI");
+    for (i=0; i<divs.length;i++) {
+    	divs[i].style.display = 'none';
+	}
+
+}
+</script>
+
+</body>
+</html>
